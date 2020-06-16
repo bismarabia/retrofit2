@@ -1,12 +1,13 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
+
+group ='com.github.bismarabia'
 
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "systems.hotech.retrofit"
         minSdkVersion 19
         targetSdkVersion 29
         versionCode 1
