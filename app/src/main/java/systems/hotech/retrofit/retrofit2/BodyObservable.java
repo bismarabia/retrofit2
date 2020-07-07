@@ -15,10 +15,10 @@
  */
 package systems.hotech.retrofit.retrofit2;
 
-import io.reactivex.*;
-import io.reactivex.disposables.Disposable;
-import io.reactivex.exceptions.*;
-import io.reactivex.plugins.RxJavaPlugins;
+import io.reactivex.rxjava3.core.*;
+import io.reactivex.rxjava3.disposables.Disposable;
+import io.reactivex.rxjava3.exceptions.*;
+import io.reactivex.rxjava3.plugins.RxJavaPlugins;
 
 public final class BodyObservable<T> extends Observable<T> {
     private final Observable<Response<T>> upstream;

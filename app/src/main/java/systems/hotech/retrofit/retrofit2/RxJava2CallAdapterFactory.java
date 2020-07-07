@@ -22,7 +22,7 @@ import java.lang.reflect.*;
 
 import javax.annotation.Nullable;
 
-import io.reactivex.*;
+import io.reactivex.rxjava3.core.*;
 
 /**
  * A {@linkplain CallAdapter.Factory call adapter} which uses RxJava 2 for creating observables.

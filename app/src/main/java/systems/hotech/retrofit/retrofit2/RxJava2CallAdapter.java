@@ -17,7 +17,7 @@ package systems.hotech.retrofit.retrofit2;
 
 import java.lang.reflect.Type;
 
-import io.reactivex.*;
+import io.reactivex.rxjava3.core.*;
 
 public final class RxJava2CallAdapter<R> implements CallAdapter<R, Object> {
     private final Type responseType;

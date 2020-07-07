@@ -16,10 +16,11 @@
 package systems.hotech.retrofit.retrofit2;
 
 
-import io.reactivex.*;
-import io.reactivex.disposables.Disposable;
-import io.reactivex.exceptions.*;
-import io.reactivex.plugins.RxJavaPlugins;
+import io.reactivex.rxjava3.core.Observable;
+import io.reactivex.rxjava3.core.Observer;
+import io.reactivex.rxjava3.disposables.Disposable;
+import io.reactivex.rxjava3.exceptions.*;
+import io.reactivex.rxjava3.plugins.RxJavaPlugins;
 
 public final class ResultObservable<T> extends Observable<Result<T>> {
     private final Observable<Response<T>> upstream;
