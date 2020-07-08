@@ -55,7 +55,6 @@ dependencies {
     implementation "com.squareup.retrofit2:converter-gson:${verRetrofit2ConverterGson}"
     implementation "io.reactivex.rxjava3:rxjava:${verCodeRxjava3}"
     implementation "io.reactivex.rxjava3:rxandroid:${verCodeRxjava3Andrid}"
-    implementation "com.jakewharton.retrofit:retrofit2-rxjava2-adapter:${verRetrofit2Rxjava2Adapter}"
     implementation "org.codehaus.mojo:animal-sniffer-annotations:${verAnimalSnifferAnnotations}"
     implementation "javax.annotation:javax.annotation-api:${verJavaxAnnotationApi}"
     implementation "com.squareup.okio:okio:${verOkio}"
